@@ -18,7 +18,7 @@ parameters = {
   }
 headers = {
  'Accepts': 'application/json',
- 'X-CMC_PRO_API_KEY': 'f784b299-dc57-44b5-8815-25b1d4132444',
+ 'X-CMC_PRO_API_KEY': #'API Key',
   }
 
 session = Session()
@@ -69,7 +69,7 @@ def api_runner():
       }
     headers = {
      'Accepts': 'application/json',
-     'X-CMC_PRO_API_KEY': 'f784b299-dc57-44b5-8815-25b1d4132444',
+     'X-CMC_PRO_API_KEY': #'API Key',
       }
 
     session = Session()
